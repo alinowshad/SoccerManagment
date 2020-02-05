@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AddTeamLeaderToTeams extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('teams', function (Blueprint $table) {
+            $table->string('team_leader_name');
+            $table->mediumText('team_leader_decription');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('teams', function (Blueprint $table) {
+            $table->dropColumn('team_leader_name');
+            $table->dropColumn('team_leader_decription');
+        });
+    }
+}
