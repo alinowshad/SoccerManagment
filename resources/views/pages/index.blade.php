@@ -53,13 +53,13 @@
   </div>
 
   <div class="feature">
-    <img class="picture" src="https://developer.playphone.com/App/Landing/img/feature-1.png" />
+    <img class="picture" src="/soccer/public/storage/landingpage/clock.png" />
     <h4 class="caption">Team Management</h4>
     <p class="summary">Manage multiple teams, with players data and performances. Enter the matches calls up, lineups, substitutions, assists, cards, scorers and player ratings. Configure the training date and track the attendances.</p>
   </div>
 
   <div class="feature">
-    <img class="picture" src="https://developer.playphone.com/App/Landing/img/feature-2.png" />
+    <img class="picture" src="/soccer/public/storage/landingpage/travel.png" />
     <h4 class="caption">Freedom</h4>
     <p class="summary">You can manage as many teams as you wish and configure multiple seasons. You will be able to switch between teams and seasons and find historical data.</p>
   </div>
